@@ -24,7 +24,13 @@ const addNewGoal = () => {
     
     // ⚠️ Hint 1: Check for duplicates
     // Use 'goalList' to get all existing goals and check if 'goalInput' matches any of them.
-    if 
+    const goalList
+    if (goalInput [i+1] === goalList[i]) {
+        goalList.push(goalInput);
+        console.log("Create and add the new goal")
+    } else {
+        return
+    }
     
     // ⚠️ Hint 2: Prevent duplicates
     // If a duplicate is found, display an alert to the user and don't add the goal to the list.
